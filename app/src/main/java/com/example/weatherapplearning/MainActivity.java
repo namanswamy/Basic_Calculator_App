@@ -10,9 +10,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.button.MaterialButton;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button button1,button2,button3,button4;
+    MaterialButton button1,button2,button3,button4;
     EditText edit1,edit2;
     TextView Answer;
     int num1,num2;
